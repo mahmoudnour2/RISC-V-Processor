@@ -1,0 +1,10 @@
+Test program 3 (testing sw and lw instructions)
+Addi x1, x0,1
+Addi x2,x0,2
+Addi x3,x0,3
+Sw x1,0(x0)
+S2 x2,4(x0)
+Sw x3,8(x0)
+Lw x1,0(x0)
+L2 x2,4(x0)
+Lw x3,8(x0)
